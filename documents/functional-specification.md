@@ -79,7 +79,7 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 ### Out of Scope
 
  - Improve the Hardware of the product,
- - Improve the protective case of the product.
+ - Improve the resiliance of the product.
 
 ## Use Cases
 
@@ -198,7 +198,7 @@ Here are the requirements of this project and their criticality (importance/orde
 The deadlines for this project are as follows:
 
 | Deliverable   | Date      |
-|:--------------|:---------:|
+|:------------- |:---------:|
 | Functional    | 18/03 5pm |
 | Technical     | 26/03 5pm |
 | Test Plan     | 10/04 5pm |
@@ -208,7 +208,5 @@ The deadlines for this project are as follows:
 ### Testing
 
 For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
-
-As we are adding our work on top of another people's one, we must respect the already in-place conventions.
 
 ---
