@@ -1,11 +1,11 @@
-# Functional Specification Document  Team 6
+# Functional Specification Document | Team 6
 
 --- 
- 
+
 <details>
 <summary> Table of Contents </summary>
 
-- [Functional Specification Document  Team 6](#functional-specification-document--team-6)
+- [Functional Specification Document | Team 6](#functional-specification-document--team-6)
   - [Context](#context)
     - [Problem](#problem)
     - [Target and Stakeholders](#target-and-stakeholders)
@@ -27,36 +27,36 @@
 
 ### Problem
 
-This project was presented to us by [Coris Innovation](https://www.corisinnovation.com)  via [ALGOSUP](https://algosup.com/), it's objective is for us to improve Coris's work on their new project, SportShield.
+This project was presented to us by [Coris Innovation](https://www.corisinnovation.com) via [ALGOSUP](https://algosup.com/). Its objective is for us to improve Coris's work on their new project, SportShield.
 
-SportShield is a device intented to help customers secure their skis or snowboard when they are not using them (i.e. during lunchtime). 
-The product lock the object(s) in place using a cable for physicla security(for now), that cable will lock itself to protect from unwinding when locked. 
-The product is also equiped with an alarm system, when it mouvement (i.e. theft attempt). 
-This is linked together via a mobile app that allows you to lock/unlock the device, stop the alarm or check the devices position on a map.
+SportShield is a device intended to help customers secure their skis or snowboard when they are not using them (i.e., during lunchtime). 
+The product locks the object(s) in place using a cable for physical security (for now). That cable will lock itself to protect from unwinding when locked. 
+The product is also equipped with an alarm system for when there is movement (i.e., a theft attempt). 
+This is linked together via a mobile app that allows you to lock/unlock the device, stop the alarm, or check the device's position on a map.
 
 ### Target and Stakeholders
 
-This document is addressed to the Tech Lead, the Software Engineer, the Quality Assurance and the stackholders are the client (Coris Innovation) and ALGOSUP(Franck). This document will describe the projects expected specifications and will act as a guideline for the developers.
+This document is addressed to the Tech Lead, the Software Engineer, the Quality Assurance, and the stakeholders, who are the client (Coris Innovation) and ALGOSUP (Franck). This document will describe the project's expected specifications and will act as a guideline for the developers.
 
 ### Competition
 
 We identified one competitor of SportShield, SkiKey: 
-They provide a key to lock skis/snowboard and variants of those two, the key serves to lock the key in place in a free standing rack that the company provides alse produce.
+They provide a key to lock skis/snowboard and variants of those two. The key serves to lock the skis/snowboard in place in a free-standing rack that the company also produces.
 
 ## Scope
 
 ### In Scope
 
  - Battery consumption management,
-   - Improved energy effeciency,
+   - Improved energy efficiency,
    - Management of low-battery situations,
-   - increase of the battery lifespan,
+   - Increase of the battery lifespan,
  - Device management with NFC,
  - Alarm management and simultaneous actions,
    - Possibility to stop the alarm at any time,
    - The product can ring and still send HTTP notification to the server,
  - Security issues,
-   - Incresed security level to connect to the key feature of the system.
+   - Increased security level to connect to the key feature of the system.
 
 ### Out of Scope
 
@@ -69,18 +69,18 @@ They provide a key to lock skis/snowboard and variants of those two, the key ser
 
 ## Requirements
 
-Here are the requirements of this project and their criticality(importance/order of implmentation)
-| Requirement | Criticallity |
+Here are the requirements of this project and their criticality (importance/order of implementation)
+| Requirement | Criticality |
 | :-------------| :-----: |
 | Shock detection | Highest |
 | Locking/Unlocking | Highest |
 | Alarm | High |
-| Shock Notification | High |
+| Shock Notification | High |
 | GNSS Position | Medium |
 
 ### Deadlines
 
-The dealines for this project are as such:
+The deadlines for this project are as follows:
 
 | Deliverable | Date |
 |:-------------|:----------:|
@@ -92,6 +92,6 @@ The dealines for this project are as such:
 
 ### Testing
 
-For the Testing, we will test all the functionalities of the product, we will use the code provided to us by Coris Innovation as a base for both our developement and our testing.
+For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
 
-As we are adding our work on top of another peoples one, we must respect the already in place conventions.
+As we are adding our work on top of another people's one, we must respect the already in-place conventions.
