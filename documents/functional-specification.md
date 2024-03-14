@@ -94,4 +94,4 @@ The dealines for this project are as such:
 
 For the Testing, we will test all the functionalities of the product, we will use the code provided to us by Coris Innovation as a base for both our developement and our testing.
 
-As we are adding our work on top of another peoples one, we must respect the already in place conventions
+As we are adding our work on top of another peoples one, we must respect the already in place conventions.
