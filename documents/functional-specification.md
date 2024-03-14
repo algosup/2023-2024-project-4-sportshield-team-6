@@ -17,6 +17,7 @@
     - [Personas](#personas)
   - [Requirements](#requirements)
     - [Deadlines](#deadlines)
+    - [Testing](#testing)
 
 </details>
 
@@ -35,9 +36,12 @@ This is linked together via a mobile app that allows you to lock/unlock the devi
 
 ### Target and Stakeholders
 
-This document is addressed to the Tech Lead, the Software Engineer, the Quality Assurance and the client (Coris Innovation). This document will describe the projects expected specifications and will act as a guideline for the developers.
+This document is addressed to the Tech Lead, the Software Engineer, the Quality Assurance and the stackholders are the client (Coris Innovation) and ALGOSUP(Franck). This document will describe the projects expected specifications and will act as a guideline for the developers.
 
 ### Competition
+
+We identified one competitor of SportShield, SkiKey: 
+They provide a key to lock skis/snowboard and variants of those two, the key serves to lock the key in place in a free standing rack that the company provides alse produce.
 
 ## Scope
 
@@ -85,3 +89,9 @@ The dealines for this project are as such:
 | Test Plan | 10/04 5pm |
 | User Manual | 10/04 5pm |
 | Code | 10/04 5pm|
+
+### Testing
+
+For the Testing, we will test all the functionalities of the product, we will use the code provided to us by Coris Innovation as a base for both our developement and our testing.
+
+As we are adding our work on top of another peoples one, we must respect the already in place conventions
