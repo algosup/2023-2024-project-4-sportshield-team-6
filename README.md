@@ -5,7 +5,7 @@ This project is a student project provided by Coris Innovation via ALGOSUP. The 
 # The Team
 
 | Name | Role | Image | GitHub | Linkedin|
-| :----- | :----------: | :----------: | :---------- |
+| :----- | :----------: | :----------: | :---------- | :------ |
 | Evan UHRING | Project Manager | [Evan](/documents/picture/image.png) | [Evan's GitHub](https://github.com/Evan-UHRING) | [Evan's Linkedin](https://www.linkedin.com/in/evan-uhring-72911b293/) |
 | Jason GROSSO | Program Manager | [Jason](/documents/picture/image-1.png) | [Jason's GitHub](https://github.com/JasonGROSSO) | [Jason's Linkedin](https://www.linkedin.com/in/jason-grosso-847b39251/) |
 | Ian LAURENT | Tech Lead | ![Ian](image-2.png) | [Ian's GitHub](https://github.com/Ianlaur) |[Ian's Linkedin](https://www.linkedin.com/in/ian-h-laurent/) |
