@@ -13,7 +13,7 @@
   - [Scope](#scope)
     - [In Scope](#in-scope)
     - [Out of Scope](#out-of-scope)
-  - [Use Case](#use-case)
+  - [Use Cases](#use-cases)
       - [Use case name: Locking skis/snowboard with SportShield](#use-case-name-locking-skissnowboard-with-sportshield)
       - [Use case name: Storage in a Ski Resort's Equipment Room with SportShield](#use-case-name-storage-in-a-ski-resorts-equipment-room-with-sportshield)
       - [Use case name: Transportation Security with SportShield](#use-case-name-transportation-security-with-sportshield)
@@ -46,6 +46,8 @@ This document is addressed to the Tech Lead, the Software Engineer, the Quality 
 We identified one competitor of SportShield, SkiKey: 
 They provide a key to lock skis/snowboard and variants of those two. The key serves to lock the skis/snowboard in place in a free-standing rack that the company also produces.
 
+---
+
 ## Scope
 
 ### In Scope
@@ -66,7 +68,9 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
  - Improve the Hardware of the product,
  - Improve the protective case of the product.
 
-## Use Case
+## Use Cases
+
+---
 
 #### Use case name: Locking skis/snowboard with SportShield
 
@@ -165,6 +169,8 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 ## Requirements
 
+---
+
 Here are the requirements of this project and their criticality (importance/order of implementation)
 | Requirement | Criticality |
 | :-------------| :-----: |
@@ -191,3 +197,5 @@ The deadlines for this project are as follows:
 For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
 
 As we are adding our work on top of another people's one, we must respect the already in-place conventions.
+
+---
