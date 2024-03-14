@@ -6,6 +6,7 @@
 <summary> Table of Contents </summary>
 
 - [Functional Specification Document | Team 6](#functional-specification-document--team-6)
+  - [Functional Specification Approval](#functional-specification-approval)
   - [Context](#context)
     - [Problem](#problem)
     - [Target and Stakeholders](#target-and-stakeholders)
@@ -25,6 +26,18 @@
 </details>
 
 ---
+
+## Functional Specification Approval
+
+|Name                   |Role               |Signature      |Date      |
+|-----------------------|-------------------|---------------|----------|
+| Evan UHRING           | Project Manager   |               |          |
+| Jason GROSSO          | Program Manager   |               |          |
+| Ian Laurent           | Tech Lead         |               |          |
+| David CUAHONTE CUEVAS | Technical Writer  |               |          |
+| Gaël MALVAR           | Software Engineer |               |          |
+| Guillaume DERAMCHI    | Quality Assurance |               |          |
+
 
 ## Context
 
@@ -172,25 +185,25 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 ---
 
 Here are the requirements of this project and their criticality (importance/order of implementation)
-| Requirement | Criticality |
-| :-------------| :-----: |
-| Shock detection | Highest |
-| Locking/Unlocking | Highest |
-| Alarm | High |
-| Shock Notification | High |
-| GNSS Position | Medium |
+| Requirement         | Criticality |
+| :------------------ | :---------: |
+| Shock detection     | Highest     |
+| Locking/Unlocking   | Highest     |
+| Alarm               | High        |
+| Shock Notification  | High        |
+| GNSS Position       | Medium      |
 
 ### Deadlines
 
 The deadlines for this project are as follows:
 
-| Deliverable | Date |
-|:-------------|:----------:|
-| Functional | 18/03 5pm |
-| Technical | 26/03 5pm |
-| Test Plan | 10/04 5pm |
-| User Manual | 10/04 5pm |
-| Code | 10/04 5pm|
+| Deliverable   | Date      |
+|:--------------|:---------:|
+| Functional    | 18/03 5pm |
+| Technical     | 26/03 5pm |
+| Test Plan     | 10/04 5pm |
+| User Manual   | 10/04 5pm |
+| Code          | 10/04 5pm |
 
 ### Testing
 
