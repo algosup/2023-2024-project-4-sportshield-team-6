@@ -43,13 +43,36 @@ This document is addressed to the Tech Lead, the Software Engineer, the Quality 
 
 ### In Scope
 
+ - Battery consumption management,
+   - Improved energy effeciency,
+   - Management of low-battery situations,
+   - increase of the battery lifespan,
+ - Device management with NFC,
+ - Alarm management and simultaneous actions,
+   - Possibility to stop the alarm at any time,
+   - The product can ring and still send HTTP notification to the server,
+ - Security issues,
+   - Incresed security level to connect to the key feature of the system.
+
 ### Out of Scope
+
+ - Improve the Hardware of the product,
+ - Improve the protective case of the product.
 
 ## Use Case
 
 ### Personas
 
 ## Requirements
+
+Here are the requirements of this project and their criticality(importance/order of implmentation)
+| Requirement | Criticallity |
+| :-------------| :-----: |
+| Shock detection | Highest |
+| Locking/Unlocking | Highest |
+| Alarm | High |
+| Shock Notification | High |
+| GNSS Position | Medium |
 
 ### Deadlines
 
