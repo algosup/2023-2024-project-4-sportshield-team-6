@@ -52,7 +52,7 @@ This is linked together via a mobile app that allows you to lock/unlock the devi
 
 ### Target and Stakeholders
 
-This document is addressed to the **Tech Lead**, the **Software Engineer**, the **Quality Assurance**, and the **Stakeholders**, who are the Client (Coris Innovation) and ALGOSUP (Franck). This document will describe the project's expected specifications and will act as a guideline for the developers.
+This document is addressed to the **Tech Lead**, the **Software Engineer**, the **Quality Assurance**, and the **Stakeholders**: the Client (Coris Innovation) and ALGOSUP (Franck JEANNIN). This document will describe the project's expected specifications and will act as a guideline for the developers.
 
 ### Competition
 
@@ -118,7 +118,7 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 **Actor:** User  
 
-**Stakeholder:**, User  
+**Stakeholder:** User  
 
 **Preconditions:**
 - The User has had his Skis stolen.
@@ -200,6 +200,6 @@ The deadlines for this project are as follows:
 
 For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
 
-The testing startegy will be detailled in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Tests Cases](/documents/quality-assurance/test-cases.md).
+The testing strategy will be detailled in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Test Cases](/documents/quality-assurance/test-cases.md).
 
 ---
