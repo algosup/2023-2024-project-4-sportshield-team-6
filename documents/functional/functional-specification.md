@@ -114,14 +114,14 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 #### Use case n°2: Locating Stolen Skis with SportShield 
 
-**Description:** A User had their Skis stolen from him after they secured them with SportShield, they uses the GPS functionality to locate their skis.  
+**Description:** A User had their Skis stolen from him after they secured them with SportShield, they use the GPS functionality to locate their skis.  
 
 **Actor:** User  
 
 **Stakeholder:** User  
 
 **Preconditions:**
-- The User has had his Skis stolen.
+- The User had their Skis stolen.
 - The User had secured his Skis with Sportshield.
 - The User has access to their smartphone with the SportShield application installed
 
