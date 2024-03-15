@@ -29,12 +29,12 @@ On this project, we have to improve the capabilities of an anti-theft object cal
 
 | Role | Member name | Profile image |
 | -- | -- | -- |
-| Project Manager: | [Evan UHRING](https://github.com/Evan-UHRING) | ![Evan's profile](https://avatars.githubusercontent.com/u/146000775?v=4) |
-| Program Manager: | [Jason GROSSO](https://github.com/JasonGROSSO) | ![Jason's profile](https://avatars.githubusercontent.com/u/114397870?v=4) |
-| Tech Lead: | [Ian LAURENT](https://github.com/Ianlaur) | ![Ian's profile](https://avatars.githubusercontent.com/u/146005340?v=4) |
-| Software Engineer: | [Gaël MALVAR](https://github.com/Gael-MALVAR) | ![Gaël's profile](https://avatars.githubusercontent.com/u/146000851?v=4) |
-| Technical Writer: | [David CUAHONTE CUEVAS](https://github.com/DavidCC812) | ![David's profile](https://avatars.githubusercontent.com/u/91249658?v=4) |
-| Quality Assurance: | [Guillaume DERAMCHI](https://github.com/Guillaume18100) | ![Guillaume's profile](https://avatars.githubusercontent.com/u/145995909?v=4) |
+| Project Manager: | [Evan UHRING](https://github.com/Evan-UHRING) | <img src="https://avatars.githubusercontent.com/u/146000775?v=4" width="200px"> |
+| Program Manager: | [Jason GROSSO](https://github.com/JasonGROSSO) | <img src="https://avatars.githubusercontent.com/u/114397870?v=4" width = "200px"> |
+| Tech Lead: | [Ian LAURENT](https://github.com/Ianlaur) | <img src="https://avatars.githubusercontent.com/u/146005340?v=4" width="200px"> |
+| Technical Writer: | [David CUAHONTE CUEVAS](https://github.com/DavidCC812) | !<img src="https://avatars.githubusercontent.com/u/91249658?v=4" width="200px"> |
+| Software Engineer: | [Gaël MALVAR](https://github.com/Gael-MALVAR) | <img src="https://avatars.githubusercontent.com/u/146000851?v=4" width="200px"> |
+| Quality Assurance: | [Guillaume DERAMCHI](https://github.com/Guillaume18100) | <img src="https://avatars.githubusercontent.com/u/145995909?v=4" width="200px"> |
 
 
 ## Stakeholders
