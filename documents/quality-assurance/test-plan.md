@@ -3,12 +3,19 @@
 ## Approvals
 
 ## Introduction
-[Provide a brief introduction to the purpose and scope of the test plan.]
+The purpose of this test plan document is to outline the approach, methodologies, and strategies for testing the software implemented in SportShield, an innovative connected anti-theft device developed by Coris Innovation. This document serves as a comprehensive guide for the testing phase of the project, detailing the objectives, scope, resources, and schedules involved.
 
 ## Objectives
-[List the objectives of the test plan, such as what is to be tested and what is not.]
+The primary objective of this test plan is to ensure the quality, reliability, and functionality of SportShield's software. By systematically testing each component, feature, and functionality, we aim to identify and address any defects or issues that may impact the user experience or the performance of the system.  
 
-## Test Strategy
+The test plan focuses solely on the software aspect of the project and includes the following types of testing:
+
+- Functional testing,
+- Integration testing,
+- Regression testing,
+- Unit testing.
+
+## Testing Strategy
 [Describe the overall approach to testing, including the types of testing to be performed.]
 
 ## Test Environment
