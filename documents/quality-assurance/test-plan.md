@@ -1,5 +1,7 @@
 # Test Plan
 
+## Approvals
+
 ## Introduction
 [Provide a brief introduction to the purpose and scope of the test plan.]
 
