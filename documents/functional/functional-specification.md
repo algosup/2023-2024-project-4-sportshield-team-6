@@ -165,6 +165,12 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 ### Personas
 
+![first persona](/documents/pictures/persona1.png)
+
+![second persona](/documents/pictures/persona2.png)
+
+![third persona](/documents/pictures/persona3.png)
+
 ## Requirements
 
 ---
