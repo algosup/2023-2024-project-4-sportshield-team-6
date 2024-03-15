@@ -15,9 +15,9 @@
     - [In Scope](#in-scope)
     - [Out of Scope](#out-of-scope)
   - [Use Cases](#use-cases)
-      - [Use case name: Locking skis/snowboard with SportShield](#use-case-name-locking-skissnowboard-with-sportshield)
-      - [Use case name: Storage in a Ski Resort's Equipment Room with SportShield](#use-case-name-storage-in-a-ski-resorts-equipment-room-with-sportshield)
-      - [Use case name: Transportation Security with SportShield](#use-case-name-transportation-security-with-sportshield)
+      - [Use case n°1: Locking Skis with SportShield](#use-case-n1-locking-skis-with-sportshield)
+      - [Use case n°2: Storage in a Ski Resort's Equipment Room with SportShield](#use-case-n2-storage-in-a-ski-resorts-equipment-room-with-sportshield)
+      - [Use case n°3: Transportation Security with SportShield](#use-case-n3-transportation-security-with-sportshield)
     - [Personas](#personas)
   - [Requirements](#requirements)
     - [Deadlines](#deadlines)
@@ -29,7 +29,7 @@
 
 ## Functional Specification Approval
 
-|Name                   |Role               |Signature      |Date      |
+|**Name**               |**Role**           |**Signature**  |**Date**  |
 |-----------------------|-------------------|---------------|----------|
 | Evan UHRING           | Project Manager   |               |          |
 | Jason GROSSO          | Program Manager   |               |          |
@@ -52,7 +52,7 @@ This is linked together via a mobile app that allows you to lock/unlock the devi
 
 ### Target and Stakeholders
 
-This document is addressed to the Tech Lead, the Software Engineer, the Quality Assurance, and the stakeholders, who are the client (Coris Innovation) and ALGOSUP (Franck). This document will describe the project's expected specifications and will act as a guideline for the developers.
+This document is addressed to the **Tech Lead**, the **Software Engineer**, the **Quality Assurance**, and the **Stakeholders**, who are the Client (Coris Innovation) and ALGOSUP (Franck). This document will describe the project's expected specifications and will act as a guideline for the developers.
 
 ### Competition
 
@@ -83,108 +83,96 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 ## Use Cases
 
----
+#### Use case n°1: Locking Skis with SportShield
 
-#### Use case name: Locking skis/snowboard with SportShield
+**Description:** A User uses SportShield to secure their equipment when not in use, providing security and peace of mind.
 
-| Use Case n° | Name | Description | Actor | Pre-condition | Flow of Events | Post-Condition | Exit Criteria |
-| :---- | --- | --- | --------- | -------- | ------------ | --- | --- |
-| 1 | Locking the Skis[^*] with SportShield | A skier uses SportShield to secure their equipment when not in use, providing security and peace of mind. | Skier | Actor need his Skis to be secured and he has SportShield on his Skis and smartphone | The Skier finishes their run on the slopes and reaches a designated area for equipment storage. <br>The user retrieves their smartphone and opens the SportShield application. <br>The user selects the option to lock their Skis. <br>The user attaches the SportShield to their equipment and a fixed structure, such as a rack or post. <br>The user confirms the lock action in the SportShield application. <br>The SportShield secures the equipment, providing a visual indication of the locked status. | The skier leaves the area with peace of mind, knowing their equipment is securely locked. | Skis are secured |
+**Actor:** User
 
-
-[^*] Skis = Skis or Snowboard / Skier = Skier or Snowboarder
-
-
-**Description:** A skier or snowboarder uses SportShield to secure their equipment when not in use, providing security and peace of mind.
-
-**Actor:** Skier or snowboarder
-
-**Stakeholder:** Ski resort management, skier or snowboarder
-
-**Primary actor:** Skier or snowboarder
+**Stakeholder:** Ski resort management, User
 
 **Preconditions:**
-- The skis or snowboard are not in use and need to be secured.
-- The skis or snowboard are equipped with SportShield.
-- The user has access to their smartphone with the SportShield application installed.
+- The Skis are not in use and need to be secured.
+- The Skis are equipped with SportShield.
+- The User has access to their smartphone with the SportShield application installed.
 
-**Triggers:** The skier or snowboarder finishes using their equipment and needs to secure it before leaving the area.
+**Triggers:** The User finishes using their equipment and needs to secure it before leaving the area.
 
 **Basic flow:**
-1. The skier or snowboarder finishes their run on the slopes and reaches a designated area for equipment storage.
-2. The user retrieves their smartphone and opens the SportShield application.
-3. The user selects the option to lock their skis or snowboard.
-4. The user attaches the SportShield to their equipment and a fixed structure, such as a rack or post.
-5. The user confirms the lock action in the SportShield application.
+1. The User finishes their run on the slopes and reaches a designated area for equipment storage.
+2. The User retrieves their smartphone and opens the SportShield application.
+3. The User selects the option to lock their Skis.
+4. The User attaches the SportShield to their equipment and a fixed structure, such as a rack or post.
+5. The User confirms the lock action in the SportShield application.
 6. The SportShield secures the equipment, providing a visual indication of the locked status.
-7. The skier or snowboarder leaves the area with peace of mind, knowing their equipment is securely locked.
+7. The User leaves the area with peace of mind, knowing their equipment is securely locked.
 
 **Alternative path:**
-- If the user encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
-- If the user forgets to lock their equipment before leaving the area, they can remotely lock it using the SportShield application from wherever they are located.
-- If the user mistakenly locks the equipment but needs to access it again, they can use the SportShield application to remotely unlock the cable and retrieve their skis or snowboard.
+- If the User encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
+- If the User forgets to lock their equipment before leaving the area, they can remotely lock it using the SportShield application from wherever they are located.
+- If the User mistakenly locks the equipment but needs to access it again, they can use the SportShield application to remotely unlock the cable and retrieve their skis or snowboard.
 
-#### Use case name: Storage in a Ski Resort's Equipment Room with SportShield  
+#### Use case n°2: Storage in a Ski Resort's Equipment Room with SportShield  
 
-**Description:** Skiers and snowboarders staying at a ski resort use SportShield to secure their equipment in the resort's equipment room overnight, preventing theft and ensuring gear remains safe and secure while they rest.  
+**Description:** A User staying at a ski resort use SportShield to secure their equipment in the resort's equipment room overnight, preventing theft and ensuring gear remains safe and secure while they rest.  
 
-**Actor:** Skier or snowboarder  
+**Actor:** User  
 
-**Stakeholder:** Ski resort management, skiers/snowboarders  
+**Stakeholder:** Ski resort management, User  
 
-**Primary actor:** Skier or snowboarder  
+**Primary actor:** User  
 
 **Preconditions:**
-- Skier or snowboarder is staying at a ski resort.
-- The skis or snowboard need to be securely stored overnight.
-- The skis or snowboard are equipped with SportShield.
+- The User is staying at a ski resort.
+- The Skis or snowboard need to be securely stored overnight.
+- The Skis or snowboard are equipped with SportShield.
 - A designated rack or storage area is available in the resort's equipment room.  
 
-**Triggers:** Skier or snowboarder finishes skiing or snowboarding for the day and wants to securely store their equipment overnight.  
+**Triggers:** The User finishes skiing for the day and wants to securely store their equipment overnight.  
 
 **Basic flow:**
-1. The skier or snowboarder locates the equipment room designated for gear storage in the ski resort.
-2. The user retrieves their smartphone and opens the SportShield application.
-3. The user selects the option to lock their skis or snowboard.
-4. The user attaches the SportShield to their equipment and a designated rack or storage area in the equipment room.
-5. The user confirms the lock action in the SportShield application.
+1. The User locates the equipment room designated for gear storage in the ski resort.
+2. The User retrieves their smartphone and opens the SportShield application.
+3. The User selects the option to lock their Skis.
+4. The User attaches the SportShield to their equipment and a designated rack or storage area in the equipment room.
+5. The User confirms the lock action in the SportShield application.
 6. The SportShield secures the equipment, providing a visual indication of the locked status.
-7. The skier or snowboarder rests or stays overnight, knowing that their equipment is securely 
+7. The User rests, knowing that their equipment is securely 
 
 **Alternative path:**
-- If the user encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
-- If the designated rack or storage area is unavailable or occupied, the user can explore alternative options for securing their equipment, such as asking resort staff for assistance or locating another designated area for equipment storage.
+- If the User encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
+- If the designated rack or storage area is unavailable or occupied, the User can explore alternative options for securing their equipment, such as asking resort staff for assistance or locating another designated area for equipment storage.
 
-#### Use case name: Transportation Security with SportShield  
+#### Use case n°3: Transportation Security with SportShield  
 
-**Description:** Skiers and snowboarders traveling to and from the mountain use SportShield to secure their equipment during transit, preventing theft and ensuring gear remains safe and secure.  
+**Description:** Users traveling to and from the mountain use SportShield to secure their equipment during transit, preventing theft and ensuring gear remains safe and secure.  
 
-**Actor:** Skier or snowboarder  
+**Actor:** Users
 
-**Stakeholder:** Ski resort management, skiers/snowboarders  
+**Stakeholder:** Ski resort management, Users  
 
-**Primary actor:** Skier or snowboarder  
+**Primary actor:** Users 
 
 **Preconditions:**
-- Skier or snowboarder is traveling to or from the mountain.
-- The skis or snowboard need to be securely transported.
-- The skis or snowboard are equipped with SportShield.
+- Users are traveling to or from the mountain.
+- The Skis need to be securely transported.
+- The Skis are equipped with SportShield.
 - A roof rack, ski rack, or cargo area is available in the vehicle for securing the equipment.  
 
-**Triggers:** Skier or snowboarder begins or ends their trip to the mountain and wants to secure their equipment during transit.  
+**Triggers:** Users begins or ends their trip to the mountain and wants to secure their equipment during transit.  
 
 **Basic flow:**
-1. The skier or snowboarder prepares to transport their equipment to or from the mountain.
-2. The user retrieves their smartphone and opens the SportShield application.
-3. The user selects the option to lock their skis or snowboard.
-4. The user attaches the SportShield to their equipment and a roof rack, ski rack, or cargo area in the vehicle.
-5. The user confirms the lock action in the SportShield application.
+1. The Users prepares to transport their equipment to or from the mountain.
+2. The Users retrieves their smartphone and opens the SportShield application.
+3. The Users selects the option to lock their skis.
+4. The Users attaches the SportShield to their equipment and a roof rack, ski rack, or cargo area in the vehicle.
+5. The Users confirms the lock action in the SportShield application.
 6. The SportShield secures the equipment, providing a visual indication of the locked status.
-7. The skier or snowboarder travels to or from the mountain, knowing that their equipment is securely locked and protected during transit.  
+7. The Users travels to or from the mountain, knowing that their equipment is securely locked and protected during transit.  
 
 **Alternative path:**
-- If the user encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
-- If the designated area for securing the equipment is unavailable or occupied, the user can explore alternative options for securing their equipment, such as using additional straps or finding another suitable location within the vehicle.
+- If the Users encounters any issues with SportShield (e.g., low battery, connectivity issues), they can troubleshoot by checking the lock's status in the application and following any on-screen instructions for resolution.
+- If the designated area for securing the equipment is unavailable or occupied, the Users can explore alternative options for securing their equipment, such as using additional straps or finding another suitable location within the vehicle.
 
 ### Personas
 
@@ -193,25 +181,25 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 ---
 
 Here are the requirements of this project and their criticality (importance/order of implementation)
-| Requirement         | Criticality |
-| :------------------ | :---------: |
-| Shock detection     | Highest     |
-| Locking/Unlocking   | Highest     |
-| Alarm               | High        |
-| Shock Notification  | High        |
-| GNSS Position       | Medium      |
+| **Requirement**     | **Criticality** |
+| :------------------ | :-------------: |
+| Shock detection     | Highest         |
+| Locking/Unlocking   | Highest         |
+| Alarm               | High            |
+| Shock Notification  | High            |
+| GNSS Position       | Medium          |
 
 ### Deadlines
 
 The deadlines for this project are as follows:
 
-| Deliverable   | Date      |
-|:------------- |:---------:|
-| Functional    | 18/03 5pm |
-| Technical     | 26/03 5pm |
-| Test Plan     | 10/04 5pm |
-| User Manual   | 10/04 5pm |
-| Code          | 10/04 5pm |
+| **Deliverable** | **Date**    |
+|:--------------- |:--------:   |
+| Functional      | 18/03 5pm   |
+| Technical       | 26/03 5pm   |
+| Test Plan       | 10/04 5pm   |
+| User Manual     | 10/04 5pm   |
+| Code            | 10/04 5pm   |
 
 ### Testing
 
