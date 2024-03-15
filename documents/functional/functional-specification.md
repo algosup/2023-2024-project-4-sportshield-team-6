@@ -200,6 +200,6 @@ The deadlines for this project are as follows:
 
 For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
 
-The testing strategy will be detailled in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Test Cases](/documents/quality-assurance/test-cases.md).
+The testing strategy will be detailed in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Test Cases](/documents/quality-assurance/test-cases.md).
 
 ---
