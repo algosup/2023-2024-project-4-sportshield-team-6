@@ -87,11 +87,12 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 #### Use case name: Locking skis/snowboard with SportShield
 
-| Actor | Skier or Snowboarder |
-| Stakeholder | Ski Resort Management, Actor |
-| Preconditions | skis or snowboard not used and need to be secured, skis or snowboard are equipped with SportShield and the user has the SportShield app installed|
-| Trigger | The skier or snowboarder finishes using their equipment and needs to secure it before leaving the area. |
-| Flow | 1. The skier or snowboarder finishes their run on the slopes and reaches a designated area for equipment storage.<\n> 2. The user retrieves their smartphone and opens the SportShield application. <\n> 3. The user selects the option to lock their skis or snowboard. <\n> 4. The user attaches the SportShield to their equipment and a fixed structure, such as a rack or post. <\n> 5. The user confirms the lock action in the SportShield application.<\n> 6. The SportShield secures the equipment, providing a visual indication of the locked status. <\n>7. The skier or snowboarder leaves the area with peace of mind, knowing their equipment is securely locked. |
+| Use Case n° | Name | Description | Actor | Pre-condition | Flow of Events | Post-Condition | Exit Criteria |
+| :-- | --- | --- | --------- | -------- | ------------ | --- | --- |
+| 1 | Locking the Skis[^*] with SportShield | A skier uses SportShield to secure their equipment when not in use, providing security and peace of mind. | Skier | Actor need his skis to be secured and he has SportShield on his skis and smartphone | The skier finishes their run on the slopes and reaches a designated area for equipment storage. <br>The user retrieves their smartphone and opens the SportShield application. <br>The user selects the option to lock their skis. <br>The user attaches the SportShield to their equipment and a fixed structure, such as a rack or post. <br>The user confirms the lock action in the SportShield application. <br>The SportShield secures the equipment, providing a visual indication of the locked status. | The skier leaves the area with peace of mind, knowing their equipment is securely locked. | Skis are secured |
+
+
+[^*]
 
 
 **Description:** A skier or snowboarder uses SportShield to secure their equipment when not in use, providing security and peace of mind.
