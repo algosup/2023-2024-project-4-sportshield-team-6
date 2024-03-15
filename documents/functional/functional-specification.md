@@ -183,7 +183,7 @@ Here are the requirements of this project and their criticality (importance/orde
 The deadlines for this project are as follows:
 
 | **Deliverable** | **Date**    |
-|:--------------- |:--------:   |
+|:--------------- |:----------: |
 | Functional      | 18/03 5pm   |
 | Technical       | 26/03 5pm   |
 | Test Plan       | 10/04 5pm   |
@@ -194,6 +194,6 @@ The deadlines for this project are as follows:
 
 For testing, we will test all the functionalities of the product. We will use the code provided to us by Coris Innovation as a base for both our development and our testing.
 
-The testing startegy will be detailled in the [Test Plan](/documents/QA/test-plan.md) and the different Tests in the [Tests Cases](/documents/QA/test-cases.md).
+The testing startegy will be detailled in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Tests Cases](/documents/quality-assurance/test-cases.md).
 
 ---
