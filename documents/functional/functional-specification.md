@@ -28,14 +28,14 @@
 
 ## Functional Specification Approval
 
-| **Name**              | **Role**          | **Signature** | **Date** |
-| --------------------- | ----------------- | ------------- | -------- |
-| Evan UHRING           | Project Manager   |               |          |
-| Jason GROSSO          | Program Manager   |               |          |
-| Ian Laurent           | Tech Lead         |               |          |
-| David CUAHONTE CUEVAS | Technical Writer  |               |          |
-| Gaël MALVAR           | Software Engineer |               |          |
-| Guillaume DERAMCHI    | Quality Assurance |       ✅     | 03/18/2024 |
+| **Name**              | **Role**          | **Signature** | **Date**   |
+| --------------------- | ----------------- | :-----------: | ---------- |
+| Evan UHRING           | Project Manager   |      ✅       | 03/18/2024 |
+| Jason GROSSO          | Program Manager   |      ✅       | 03/18/2024 |
+| Ian Laurent           | Tech Lead         |      ✅       | 03/18/2024 |
+| David CUAHONTE CUEVAS | Technical Writer  |      ✅       | 03/18/2024 |
+| Gaël MALVAR           | Software Engineer |      ✅       | 03/18/2024 |
+| Guillaume DERAMCHI    | Quality Assurance |      ✅       | 03/18/2024 |
 
 ## Context
 
@@ -213,5 +213,6 @@ The testing strategy will be detailed in the [Test Plan](/documents/quality-assu
 ## Future Improvements
 
 For future improvements, we thought about:
- - improving the feedback the user gets from the device (via lights or sounds) or the application (more types of notification/more informations);
- - improving the security on the bluetooth side;
+
+- improving the feedback the user gets from the device (via lights or sounds) or the application (more types of notification/more informations);
+- improving the security on the bluetooth side;
