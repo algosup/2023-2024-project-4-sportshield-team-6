@@ -2,10 +2,10 @@
 
 ---
 
-<details>
-<summary> Table of Contents </summary>
+## Table of contents
 
 - [Functional Specification Document | Team 6](#functional-specification-document--team-6)
+  - [Table of contents](#table-of-contents)
   - [Functional Specification Approval](#functional-specification-approval)
   - [Context](#context)
     - [Problem](#problem)
@@ -15,15 +15,13 @@
     - [In Scope](#in-scope)
     - [Out of Scope](#out-of-scope)
   - [Use Cases](#use-cases)
-      - [Use case n°1: Locking Skis with SportShield](#use-case-n1-locking-skis-with-sportshield)
-      - [Use case n°2: Locating Stolen Skis with SportShield](#use-case-n2-locating-stolen-skis-with-sportshield)
-      - [Use case n°3: Transportation Security with SportShield](#use-case-n3-transportation-security-with-sportshield)
+    - [Use case n°1: Locking Skis with SportShield](#use-case-n1-locking-skis-with-sportshield)
+    - [Use case n°2: Locating Stolen Skis with SportShield](#use-case-n2-locating-stolen-skis-with-sportshield)
+    - [Use case n°3: Transportation Security with SportShield](#use-case-n3-transportation-security-with-sportshield)
     - [Personas](#personas)
   - [Requirements](#requirements)
     - [Deadlines](#deadlines)
     - [Testing](#testing)
-
-</details>
 
 ---
 
@@ -82,7 +80,7 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 ## Use Cases
 
-#### Use case n°1: Locking Skis with SportShield
+### Use case n°1: Locking Skis with SportShield
 
 **Description:** A User uses SportShield to secure their equipment when not in use.
 
@@ -114,7 +112,7 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 - If the User forgets to lock their equipment before leaving the area, they can remotely lock it using the SportShield application from wherever they are located.
 - If the User mistakenly locks the equipment but needs to access it again, they can use the SportShield application to remotely unlock the cable and retrieve their skis or snowboard.
 
-#### Use case n°2: Locating Stolen Skis with SportShield
+### Use case n°2: Locating Stolen Skis with SportShield
 
 **Description:** A User had their Skis stolen from him after they secured them with SportShield, they use the GPS functionality to locate their skis.
 
@@ -138,7 +136,7 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 4. The User alert the authorities of the theft and the location of the stolen Skis.
 5. The User gets their Skis back.
 
-#### Use case n°3: Transportation Security with SportShield
+### Use case n°3: Transportation Security with SportShield
 
 **Description:** While the user is traveling to the mountain, SportShield will be used to secure their equipment during transit, preventing theft and assuring the safety of the equipment.
 
