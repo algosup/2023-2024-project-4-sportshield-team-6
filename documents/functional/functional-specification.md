@@ -35,7 +35,7 @@
 | Ian Laurent           | Tech Lead         |               |          |
 | David CUAHONTE CUEVAS | Technical Writer  |               |          |
 | Gaël MALVAR           | Software Engineer |               |          |
-| Guillaume DERAMCHI    | Quality Assurance |               |          |
+| Guillaume DERAMCHI    | Quality Assurance |       ✅     | 03/18/2024 |
 
 ## Context
 
