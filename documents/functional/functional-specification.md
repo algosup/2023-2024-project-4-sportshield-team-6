@@ -22,6 +22,7 @@
   - [Requirements](#requirements)
     - [Deadlines](#deadlines)
     - [Testing](#testing)
+  - [Future Improvements](#future-improvements)
 
 ---
 
@@ -176,9 +177,9 @@ They provide a key to lock skis/snowboard and variants of those two. The key ser
 
 ![third persona](/documents/pictures/persona3.png)
 
-## Requirements
-
 ---
+
+## Requirements
 
 Here are the requirements of this project and their criticality (importance/order of implementation)
 | **Requirement** | **Criticality** |
@@ -208,3 +209,9 @@ For testing, we will test all the functionalities of the product. We will also u
 The testing strategy will be detailed in the [Test Plan](/documents/quality-assurance/test-plan.md) and the different Tests in the [Tests Cases](/documents/quality-assurance/test-cases.md).
 
 ---
+
+## Future Improvements
+
+For future improvements, we thought about:
+ - improving the feedback the user gets from the device (via lights or sounds) or the application (more types of notification/more informations);
+ - improving the security on the bluetooth side;
