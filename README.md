@@ -17,9 +17,20 @@ This project is a student project provided by [Coris Innovation](https://www.cor
 
 ---
 
+# Documents
+
+Here are the different documents that we have created for the project.
+
+- [Project Charter](/management/project-charter.md)
+- [Functional Specifications](/documents/functional/functional-specification.md)
+- [Technical Specifications](/documents/technical/technical-specification.md)
+- [Test Plan](/documents/quality-assurance/test-plan.md)
+
+---
+
 # Licence 
 
-This Project uses the [MIT Licence](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/document/LICENSE)
+This Project uses the [To define]
 
 ---
 
