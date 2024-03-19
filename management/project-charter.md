@@ -32,7 +32,7 @@ On this project, we have to improve the capabilities of an anti-theft object cal
 | Project Manager: | [Evan UHRING](https://github.com/Evan-UHRING) | <img src="https://avatars.githubusercontent.com/u/146000775?v=4" width="200px"> |
 | Program Manager: | [Jason GROSSO](https://github.com/JasonGROSSO) | <img src="https://avatars.githubusercontent.com/u/114397870?v=4" width = "200px"> |
 | Tech Lead: | [Ian LAURENT](https://github.com/Ianlaur) | <img src="https://avatars.githubusercontent.com/u/146005340?v=4" width="200px"> |
-| Technical Writer: | [David CUAHONTE CUEVAS](https://github.com/DavidCC812) | !<img src="https://avatars.githubusercontent.com/u/91249658?v=4" width="200px"> |
+| Technical Writer: | [David CUAHONTE CUEVAS](https://github.com/DavidCC812) | <img src="https://avatars.githubusercontent.com/u/91249658?v=4" width="200px"> |
 | Software Engineer: | [Gaël MALVAR](https://github.com/Gael-MALVAR) | <img src="https://avatars.githubusercontent.com/u/146000851?v=4" width="200px"> |
 | Quality Assurance: | [Guillaume DERAMCHI](https://github.com/Guillaume18100) | <img src="https://avatars.githubusercontent.com/u/145995909?v=4" width="200px"> |
 
@@ -99,7 +99,7 @@ Identification of the different success criteria for the correct advancement of 
     - The program has been tested as maximum as possible to ensure the proper functioning of it.
 
 - <b>Time management:</b>
-    - The time has been correctly distributed between the team members to have the best advancement of the project as possible.
+    - The time has been correctly distributed between the team members to have the best advancement of the project as possible. ([Our Trello](https://trello.com/b/TmAy2Ca5/sportshield-team-6))
 
 - <b>Meeting expectations:</b>
     - The final program meets every the expectations of the customer.
