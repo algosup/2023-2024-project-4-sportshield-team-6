@@ -6,7 +6,9 @@
  - <b>Project Manger:</b> Evan UHRING
  - <b>Working time:</b> 24,5h
 
+Our software engineer was not here the whole week and wasn't giving information about his absence, so the development has not nicely started.
 
+Our tech lead has not been here also most of the time this week and we don't have more information about why he is not there at the end of the week.
 
 
 ## Project Organization
@@ -33,6 +35,8 @@ The progression prevision through the project has been redefined, to better repr
 | -- | -- | -- | -- |
 | Risk 1 | Difficulties to make the given hardware prototype work properly | Team | Closed |
 | Risk 2 | One of our team members, our Software engineer, in absent and we can't properly start the development of the software | Gaël | Ongoing |
+| Risk 3 | We don't have news about the team members | Gaël, Ian | Ongoing |
 
 ## Team Feedback
 
+Nothing to say for this week because of the absence of two team members.
