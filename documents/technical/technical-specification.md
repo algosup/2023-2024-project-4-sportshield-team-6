@@ -83,13 +83,13 @@ We were givin a prototype of the product to be able to work on it, Here is the s
 
 |Image|Name|Dimensions|Description|Role|
 |:-|:-|:-|:-|:-|
-|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Xiao%20BLE%20Sense%20nrf52840-Img.jpg" height="50">|Xiao BLE Sense nrf52840|2 x 2 x 0,5 cm | | Connects the USB C to the computer to import the code file.|
-| <img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GNSS%20PA1010D-Img.png" height="50">|GNSS PA1010D | 2,5 x 2,5 x 1 cm | With antenna integration |This will allow to detect the movements of the board.
-|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GSM%3A2G%20SIM800L%20Module-Img.jpg" height="50"> |GSM/2G SIM800L Module|2,2 x 1,8 x 0,5 cm | Sim card holder with 2G | This module will allow the board to connect to the 2G and send the location coordinates.
-|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Electromagnet-Img.png" height="50">|Electromagnet|2,7 x 1,6 x 1,3 cm | 12V and 500mA electromagnet| This will allow to lock and unlock the system with the program.| 
-| <img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Piezoelectric-buzzer-Img.png" height="50">|Piezoelectric buzzer|1,5cm diameter |12V with oscillaor circut control|This buzzer will allow to emit a sound ranging from 90db to 100db.
-|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Lithium-Polymer%20battery-Img.png" height="50">|Lithium-Polymer battery|5,1 x 3,5 x 0,6 cm | 3,7V 1100mAh and 4.1Wh lithium battery | Power source of the board and the electromagnet.|
-|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/NFC-antenna-Img.png" height="50">|NFC antenna| 5,5 x 4,5 x 0,017cm|13,56Mhz frequency NFC antenna| This will allow the final user to use NFC technology to interact with the device.
+|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Xiao%20BLE%20Sense%20nrf52840-Img.jpg" height="75">|Xiao BLE Sense nrf52840|2 x 2 x 0,5 cm | | Connects the USB C to the computer to import the code file.|
+| <img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GNSS%20PA1010D-Img.png" height="75">|GNSS PA1010D | 2,5 x 2,5 x 1 cm | With antenna integration |This will allow to detect the movements of the board.
+|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GSM%3A2G%20SIM800L%20Module-Img.jpg" height="75"> |GSM/2G SIM800L Module|2,2 x 1,8 x 0,5 cm | Sim card holder with 2G | This module will allow the board to connect to the 2G and send the location coordinates.
+|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Electromagnet-Img.png" height="75">|Electromagnet|2,7 x 1,6 x 1,3 cm | 12V and 500mA electromagnet| This will allow to lock and unlock the system with the program.| 
+| <img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Piezoelectric-buzzer-Img.png" height="75">|Piezoelectric buzzer|1,5cm diameter |12V with oscillaor circut control|This buzzer will allow to emit a sound ranging from 90db to 100db.
+|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Lithium-Polymer%20battery-Img.png" height="75">|Lithium-Polymer battery|5,1 x 3,5 x 0,6 cm | 3,7V 1100mAh and 4.1Wh lithium battery | Power source of the board and the electromagnet.|
+|<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/NFC-antenna-Img.png" height="75">|NFC antenna| 5,5 x 4,5 x 0,017cm|13,56Mhz frequency NFC antenna| This will allow the final user to use NFC technology to interact with the device.
 || USB type A to USB type C |10cm |10A connector| Will allow to connect for recharging and uploading code file.
 
 These documents under was provided to our team to guide the team and for the team to understand the physical architecture of the board.
@@ -214,8 +214,9 @@ Voltimeter and other unit test will be done to assure that the results comming f
 ## Acknowledgements
 We wish to express our sincere appreciation to ALGOSUP and Coris Innovation for their pivotal role in the development of this technical specification. Their profound expertise, steadfast guidance, and collaborative spirit have profoundly enriched the conceptualization and refinement of the project, ensuring its adherence to rigorous industry standards and best practices. The partnership with ALGOSUP and Coris Innovation has been instrumental in navigating intricate technical challenges and fostering innovative solutions to effectively meet the project's objectives. Their unwavering commitment and invaluable contributions have been indispensable in propelling the project towards its successful fruition.
 
-![Coris innovation logo](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/65648d5d98f6814022b9474a_6e5ca96fcf317623caec20ca96892327.png)
-![ALGOSUPLOGO](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/ALGOSUP-logo.png)
+<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/65648d5d98f6814022b9474a_6e5ca96fcf317623caec20ca96892327.png" height="100">
+
+<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/ALGOSUP-logo.png" height="100">
 
 ## Legal 
 
