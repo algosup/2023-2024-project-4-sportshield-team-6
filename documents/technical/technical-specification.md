@@ -6,6 +6,7 @@
 <details>
 <summary>Details</summary>
 <br>
+
 Details: 
 - Author: Ian LAURENT
 - Created on the 13th March 2024
