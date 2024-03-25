@@ -214,10 +214,12 @@ Voltimeter and other unit test will be done to assure that the results comming f
 ## Acknowledgements
 We wish to express our sincere appreciation to ALGOSUP and Coris Innovation for their pivotal role in the development of this technical specification. Their profound expertise, steadfast guidance, and collaborative spirit have profoundly enriched the conceptualization and refinement of the project, ensuring its adherence to rigorous industry standards and best practices. The partnership with ALGOSUP and Coris Innovation has been instrumental in navigating intricate technical challenges and fostering innovative solutions to effectively meet the project's objectives. Their unwavering commitment and invaluable contributions have been indispensable in propelling the project towards its successful fruition.
 
+<p align="center">
 <img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/65648d5d98f6814022b9474a_6e5ca96fcf317623caec20ca96892327.png" height="100">
-
-<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/ALGOSUP-logo.png" height="100">
-
+</p>
+<p align="center">
+<img src="https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/ALGOSUP-logo.png" height="100" >
+</p>
 ## Legal 
 
 All intellectual property rights, including copyrights, patents, and proprietary information, associated with the development of this technical specification for educational purposes and the prototype, are hereby acknowledged to belong solely to ALGOSUP and Coris Innovation. This legal acknowledgment confirms their exclusive ownership of the concepts, methodologies, algorithms, and any related documentation contained within the specification. It is noted that certain information contained herein may be sensitive or proprietary to ALGOSUP and Coris Innovation and may not be suitable for public dissemination. Any unauthorized use, reproduction, or distribution of this intellectual property without explicit authorization from ALGOSUP and Coris Innovation is strictly prohibited and may result in legal action.
