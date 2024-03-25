@@ -5,9 +5,7 @@
 
 <details>
 <summary>Details</summary>
-<br>
 
-Details: 
 - Author: Ian LAURENT
 - Created on the 13th March 2024
 - Reviewers: 
@@ -119,6 +117,9 @@ An Integrated Development Environment (IDE) is a software application that provi
 The working environnement for this project is **Arduino IDE 2.3.2
 "Link"**
 
+### App
+There is an designated mobile app that will allow the end user to control the final product on his device (e.g. Phone). This app's name is SportSheild curated by Coris Innovation, this app controls the lock and unlock function by emitting frequencies to the anthenna via Bluetooth technology. This app also allows the user to see the precise location of the lock with the GPS location on the board. NFC technology is anticipated by Coris Innovation, they plan on making the lock and unlock system possible by tapping the NFC anthenna with the users device or badge to unlock it. 
+
 ## Provided documents
 
 [Specification on the Sim module (GSM/2G SIM800L Module)](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/documentation/SIM800L-SIMCom.pdf)
@@ -159,7 +160,7 @@ Optimisation was the main task of the asseignment, it being the key element to t
 ## Assumptions
 The product will be fully functional with GPS location precisly pinned, and the movement detection will be flawless with the code being fully optimized to extend it's battery life. The battery life will be extended to one week with a constant use of 2 hours per day. This will allow us to meet the standards of the client. 
 ## Solutions 
--- needs to be brought by Sofware developer
+-- needs to be brought by Sofware developer GAEL--
 ### Current or Existing Solution / Design
 
 -- Add image of the product -- 
