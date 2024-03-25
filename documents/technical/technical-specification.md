@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 # Technical specification - Team 6 
 
 ### [Coris innovation](https://www.corisinnovation.com) Sport-Shield Project givin by ALGOSUP [ALGOSUP](https://www.algosup.com)
@@ -86,7 +85,7 @@ We were givin a prototype of the product to be able to work on it, Here is the s
 |:-|:-|:-|:-|:-|
 |![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Xiao%20BLE%20Sense%20nrf52840-Img.jpg)|Xiao BLE Sense nrf52840|2 x 2 x 0,5 cm | | Connects the USB C to the computer to import the code file.|
 | ![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GNSS%20PA1010D-Img.png)|GNSS PA1010D | 2,5 x 2,5 x 1 cm | With antenna integration |This will allow to detect the movements of the board.
-|![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GNSS%20PA1010D-Img.png) |GSM/2G SIM800L Module|2,2 x 1,8 x 0,5 cm | Sim card holder with 2G | This module will allow the board to connect to the 2G and send the location coordinates.
+|![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/GSM%3A2G%20SIM800L%20Module-Img.jpg height=75) |GSM/2G SIM800L Module|2,2 x 1,8 x 0,5 cm | Sim card holder with 2G | This module will allow the board to connect to the 2G and send the location coordinates.
 |![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Electromagnet-Img.png)|Electromagnet|2,7 x 1,6 x 1,3 cm | 12V and 500mA electromagnet| This will allow to lock and unlock the system with the program.| 
 |![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Piezoelectric-buzzer-Img.png)|Piezoelectric buzzer|1,5cm diameter |12V with oscillaor circut control|This buzzer will allow to emit a sound ranging from 90db to 100db.
 |![Image](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/Dev/documents/pictures/Lithium-Polymer%20battery-Img.png)|Lithium-Polymer battery|5,1 x 3,5 x 0,6 cm | 3,7V 1100mAh and 4.1Wh lithium battery | Power source of the board and the electromagnet.|
@@ -221,4 +220,4 @@ We wish to express our sincere appreciation to ALGOSUP and Coris Innovation for 
 ## Legal 
 
 All intellectual property rights, including copyrights, patents, and proprietary information, associated with the development of this technical specification for educational purposes and the prototype, are hereby acknowledged to belong solely to ALGOSUP and Coris Innovation. This legal acknowledgment confirms their exclusive ownership of the concepts, methodologies, algorithms, and any related documentation contained within the specification. It is noted that certain information contained herein may be sensitive or proprietary to ALGOSUP and Coris Innovation and may not be suitable for public dissemination. Any unauthorized use, reproduction, or distribution of this intellectual property without explicit authorization from ALGOSUP and Coris Innovation is strictly prohibited and may result in legal action.
->>>>>>> Stashed changes
+
