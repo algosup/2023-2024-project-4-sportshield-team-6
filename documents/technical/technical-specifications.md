@@ -18,12 +18,12 @@
 
 |**Name**               |**Role**           |**Signature**  |**Date**  |
 |-----------------------|-------------------|---------------|----------|
-| Evan UHRING           | Project Manager   |               |          |
-| Jason GROSSO          | Program Manager   |               |          |
-| Ian LAURENT           | Tech Lead         |               |          |
-| David CUAHONTE CUEVAS | Technical Writer  |               |          |
+| Evan UHRING           | Project Manager   |      ✅       |03/26/2024|
+| Jason GROSSO          | Program Manager   |      ✅       |03/26/2024|
+| Ian LAURENT           | Tech Lead         |      ✅       |03/26/2024|
+| David CUAHONTE CUEVAS | Technical Writer  |      ✅       |03/26/2024|
 | Gaël MALVAR           | Software Engineer |               |          |
-| Guillaume DERAMCHI    | Quality Assurance |               |          |
+| Guillaume DERAMCHI    | Quality Assurance |      ✅       |03/26/2024|
 
 ## Table of Contents
 
