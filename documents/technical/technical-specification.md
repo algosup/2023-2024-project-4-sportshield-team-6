@@ -213,10 +213,20 @@ Voltimeter and other unit test will be done to assure that the results comming f
 - Solving: Finding ways to optimize the code after detecting the flaws in the code.
 - Implementation: Implementing new features to the code and other functions that could help it to repond to the clients needs.
 - Presentation: Presenting to the client the final work detailing every aspect that was tweeked and added.
+
 ### Milestones 
---EVAN--
+| Position of step | Name | Description |
+| -- | -- | -- |
+| 1 | Alarm ringing and notifying | The alarm has to continue ringing when sending notifications to the user |
+| 2 | Alarm stop at will | The user will be capable of stopping the alarm at will, without having to wait the end of the ringing |
+| 3 | Battery efficiency | The product will use more efficiently the power from the battery to last longer |
+| 4 | Battery lifespan | The product will have limitations for the battery charge to increase the battery lifespan |
+| 5 | Low battery management | The product will have security capabilities when its battery is to low, so the user can still take his skis without the product locked on them |
+| 6 | NFC | The user will be capable of using the NFC other than the bluetooth to connect the product to his phone, to lock or unlock and activate or deactivate the product |
+
 ### Testing methods / Issue declaration 
 --Guillaume--
+
 ## Glossary / Terminalogy 
 
 ## References
