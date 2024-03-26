@@ -1,5 +1,5 @@
 
-# Technical specifications - Team 6 
+# Technical specification - Team 6 
 
 ### [Coris innovation](https://www.corisinnovation.com) Sport-Shield Project given by [ALGOSUP](https://www.algosup.com)
 
@@ -14,7 +14,7 @@
 - Last updated: 26th March 2024
 </details>
 
-## Technical Specifications Approval
+## Technical Specification Approval
 
 |**Name**               |**Role**           |**Signature**  |**Date**  |
 |-----------------------|-------------------|---------------|----------|

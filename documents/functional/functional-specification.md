@@ -32,7 +32,7 @@
 | --------------------- | ----------------- | :-----------: | ---------- |
 | Evan UHRING           | Project Manager   |      ✅       | 03/18/2024 |
 | Jason GROSSO          | Program Manager   |      ✅       | 03/18/2024 |
-| Ian Laurent           | Tech Lead         |      ✅       | 03/18/2024 |
+| Ian LAURENT           | Tech Lead         |      ✅       | 03/18/2024 |
 | David CUAHONTE CUEVAS | Technical Writer  |      ✅       | 03/18/2024 |
 | Gaël MALVAR           | Software Engineer |      ✅       | 03/18/2024 |
 | Guillaume DERAMCHI    | Quality Assurance |      ✅       | 03/18/2024 |
