@@ -82,7 +82,6 @@ These deadlines were givin by Franck JEANNIN a stakeholder of the project. You w
 - Code 10/4 5pm
 
 ## Materials
-
 ### Electronics
 We were givin a prototype of the product to be able to work on it, Here is the specification of the componants that were givin by the client. 
 
@@ -114,11 +113,12 @@ In the domain of C++ programming, a library represents a foundational element, h
 ### IDE
 An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to programmers for software development. IDEs typically include features such as code editors, compilers or interpreters, build automation tools, debuggers, and project management capabilities, all integrated into a single cohesive environment. These tools are designed to enhance developer productivity by providing a unified workspace where programmers can write, edit, compile, debug, and deploy their code efficiently. IDEs are available for various programming languages and platforms, catering to the specific needs of developers across different software development domains. Popular examples of IDEs include Visual Studio, Eclipse, IntelliJ IDEA, and Xcode.
 
-The working environnement for this project is **Arduino IDE 2.3.2
-"Link"**
+The working environnement for this project is **[Arduino IDE 2.3.2](https://www.arduino.cc/en/software)**
 
 ### App
 There is an designated mobile app that will allow the end user to control the final product on his device (e.g. Phone). This app's name is SportSheild curated by Coris Innovation, this app controls the lock and unlock function by emitting frequencies to the anthenna via Bluetooth technology. This app also allows the user to see the precise location of the lock with the GPS location on the board. NFC technology is anticipated by Coris Innovation, they plan on making the lock and unlock system possible by tapping the NFC anthenna with the users device or badge to unlock it. 
+
+Here is the APK link to download the unreleased app: [Download]()--michel--
 
 ## Provided documents
 
@@ -153,17 +153,22 @@ Optimisation was the main task of the asseignment, it being the key element to t
 **Performance**: At last performance will need to be taken into consideration for the product to be accurate. GPS location will have to be precise to locate the device in case of theift or a lost of the devise. The detection of movement has to be correct and will have to detect every movement taking into account the meterological conditions that the device can face such as storms, strong winds, snow.
 
 ## Non-Goals or Out of Scope
---Product and technical requirements that will be disregarded
 
+Changing the physical board is part of the non goals the team will stay focused in working on the software and not the hardware, due to the demand of the client to only optimise the code the team will focus it's attention to the software first and once this task will be terminated it will be concevable to propose to the client a new prototype with added elements to the givin prototype.
 ## Future Goals
 
 ## Assumptions
 The product will be fully functional with GPS location precisly pinned, and the movement detection will be flawless with the code being fully optimized to extend it's battery life. The battery life will be extended to one week with a constant use of 2 hours per day. This will allow us to meet the standards of the client. 
 ## Solutions 
--- needs to be brought by Sofware developer GAEL--
+
+The solution that the team is considering is to minimise the constant GPS location seach and allow it to activate only when the devise detects a movement. In addition allowing a range of tolerance in the detection of the movement which will allow to consume a lot less power but also avoid unwanted alerts caused by other factors such as wind. 
+In complementary to the proposed solution the team will propose to add an element onto the existing protoype to maximise battery life and avoid unwanted use of power. 
+An alternative solution would be to upgrade the current battery to one with a bigger capacity to allow the battery to last even longer taking into account the cost we wouldn't want to higher the cost of production which is why it would be the last solution if after the code optimisation the battery life doesn't meet the clients demands. 
+Adding materials that will autoregulate in terms of temperature is also a proposition from our team, due to the extreme conditions that the final user will take the device, the device should be able to resist to extreme cold and hot temperatures without affecting the performance of the device, which is why materials such as a TRM[^1] is an aspect to consider in the design of thed device.
+
 ### Current or Existing Solution / Design
 
--- Add image of the product -- 
+![img](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/blob/document/documents/pictures/Electronics.png)
 
 As shown above, this is the prototype that we have received to work on it contains all the main componants.
 
@@ -171,7 +176,7 @@ As shown above, this is the prototype that we have received to work on it contai
 
 The source code is linked above and was givin by <u>Corris Innovation</u> and is currently not optimised.
 
--- link to optimised code --
+[Developed code](https://github.com/algosup/2023-2024-project-4-sportshield-team-6/tree/Dev/SS_05-03_anglais-batterycontrol)
 
 Above is the optimized code from the source code that will be uploaded to the board and will run on. 
 
@@ -190,6 +195,7 @@ One major consideration for the physical componant would be to add a electrical 
 This leads to performance issues and more importantly to reliability issues.
 
 The battery has also to be considered to be changed to a higher voltage battery, the current provided battery doesn't have the capacities to action the electromagnent at this current moment. 
+
 ### Alternate Solutions / Designs
 
 We propose to consider change the battery to a higher volatge battery, and adding a electrical relay in the circuit. 
@@ -202,8 +208,12 @@ The code will be fully optimised assuming that the electromagnet is fully functi
 Due to the low power that the electromagnent will receive, it will have a major impact on performance but also oon reliability. The alarm system will be activated however the lock system could be faulty leading to an important vulnarability of the device getting stolen.
 
 ### Testing (metrics)
+
 Voltimeter and other unit test will be done to assure that the results comming from the tests ressembles the expected result. 
+
 ## Work flow
+
+Our team is composed with a Project Manager, a Program manager, a Tech leader, a Quality Assurance, a Technical writter, and a Software engineer. This configuration allows the team to have a specific work flow where as all the steps of the project will have to be validated by the Quality assurance anc the Project manager, this allows to keep the workflow going and to assure an good quality outcome.
 
 ### Prioritzation 
 - Testing the protoype: Understanding the equipment we will have to work with is the first step.
@@ -225,11 +235,41 @@ Voltimeter and other unit test will be done to assure that the results comming f
 | 6 | NFC | The user will be capable of using the NFC other than the bluetooth to connect the product to his phone, to lock or unlock and activate or deactivate the product |
 
 ### Testing methods / Issue declaration 
---Guillaume--
+The details of the different test methods and issue declaration can be found the test plan page [here](../quality-assurance/test-plan.md).
+
+## Stakeholders
+
+The are two principle stakeholders for this project:
+<details>
+<summary>ALGOSUP international software development school</summary>
+
+- **Franck JEANNIN** : Founder of ALGOSUP international software development school
+- **Natacha BOEZ** : Founder of ALGOSUP international software development school
+- **Eric LARCHEVEQUE** : Founder of ALGOSUP international software development school 
+</details>
+
+<details>
+<summary>Coris Innovation</summary>
+
+- **Florent ANON** : Representative of Coris innovation / Innovation Lab Manager.
+</details>
 
 ## Glossary / Terminalogy 
 
+[^1]: a substance that undergoes phase transition at a specific temperature, which enables it to absorb and release latent heat when isothermal conditions are altered.
+
 ## References
+<u>Arduino IDE Documentation:</u>
+- [Software installation.](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/)
+- [Board package installation.](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager/)
+- [Installing libaries.](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/)
+- [Understanding Aduino IDE.](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/)
+
+<u>Getting Started with Seeed Studio XIAO nRF52840 (Sense):</u>
+- [Full documentation on installing the board correctly.](https://wiki.seeedstudio.com/XIAO_BLE/)
+
+<u>Documentation explaining NFC technology:</u>
+- [What is NFC.](https://www.raypcb.com/nfc-antenna/)
 
 ## Acknowledgements
 We wish to express our sincere appreciation to ALGOSUP and Coris Innovation for their pivotal role in the development of this technical specification. Their profound expertise, steadfast guidance, and collaborative spirit have profoundly enriched the conceptualization and refinement of the project, ensuring its adherence to rigorous industry standards and best practices. The partnership with ALGOSUP and Coris Innovation has been instrumental in navigating intricate technical challenges and fostering innovative solutions to effectively meet the project's objectives. Their unwavering commitment and invaluable contributions have been indispensable in propelling the project towards its successful fruition.
