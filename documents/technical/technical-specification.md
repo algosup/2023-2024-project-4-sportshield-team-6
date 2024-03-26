@@ -14,7 +14,7 @@
 - Last updated: 26th March 2024
 </details>
 
-## Technical Specification Approval
+## Technical Specifications Approval
 
 |**Name**               |**Role**           |**Signature**  |**Date**  |
 |-----------------------|-------------------|---------------|----------|
