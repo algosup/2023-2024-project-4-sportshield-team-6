@@ -15,7 +15,6 @@
 - [Test Cases](#test-cases)
 - [Testing Tools](#testing-tools)
 - [Defect Tracking](#defect-tracking)
-- [Contact Information](#contact-information)
 
 ## Glossary
 
@@ -29,7 +28,7 @@
 
 ## Introduction
 
-This document outlines the test plan for the SportShield project, an anti-theft device designed for skis and snowboard only at the moment. The purpose of this test plan is to test the code of the software engineers to make sure it allows for less battery consumption, without any error. This project has been given to us by Coris Innovation in collaboration with ALGOSUP, they are therefore the stakeholders.
+This document outlines the test plan for the SportShield project, an anti-theft device designed for skis and snowboard only at the moment. The purpose of this test plan is to test the code of the software engineers to make sure it allows for less battery consumption, without any error. This project has been given to us by Coris Innovation in collaboration with ALGOSUP, who are therefore the stakeholders.
 
 ## Project Overview
 
@@ -37,7 +36,7 @@ SportShield is an anti-theft device equipped with sensors and actuators to detec
 
 ## Testing Strategy
 
-The testing strategy for the SportShield project involves comprehensive testing of both hardware and software components. This includes functional testing, performance testing, security testing, and reliability testing. Testing will be conducted manuall yand through automated tests where applicable.
+The testing strategy for the SportShield project involves comprehensive testing of both hardware and software components. This includes functional testing, performance testing, security testing, and reliability testing. Testing will be conducted manually and through automated tests where applicable.
 
 ## Testing Scope
 
@@ -46,7 +45,7 @@ The testing scope includes:
 - Unlocking the device via Bluetooth and NFC
 - Movement detection and alarm activation
 - GPS localization and notification transmission
-- Battery consumption management
+- Battery consumption
 - Mobile app functionalities
 
 ## Testing Schedule
@@ -99,11 +98,5 @@ The following tools will be used for testing:
 
 We will use GitHub Issues to track the defects of the software and the documentation. We will create a new issue for each defect that we find during the testing of the software and the reviewing of the documentation. Every issue will be labeled with the `bug` for the software and with `documentation` otherwise and will be assigned to the person concerned who will fix the defect. They will be provided to the individual with a clear description of the issue, the expected result and relevant hints if necessary. Finally we will indicate its priority level with a scale from `low` to `critical`.
 
-## Contact Information
 
-For any questions or concerns regarding the SportShield project, please contact:
-Florent ANON
-Innovation Lab Manager
-Phone: +33.6.40.94.63.09
-Email: fanon@corisinnovation.com
 
