@@ -1,7 +1,8 @@
-# Test Cases
+## Test Cases
 
+---
 
-## Order of priority
+### Order of priority
 
 | Order | Name |    
 |---|---|   
@@ -9,6 +10,8 @@
 | 2 | High |    
 | 3 | Medium |      
 | 4 | Low |     
+
+---
 
 - Test case ID: 1
 - Test case name: Test the movement detection algorithm
@@ -21,6 +24,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If the movement detection fails, restart the system and retest.
+
+---
 
 - Test case ID: 2
 - Test case name: Test the alarm activation algorithm
@@ -33,6 +39,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If the alarm activation fails, reset the alarm system and retest.
+
+---
 
 - Test case ID: 3
 - Test case name: Test GPS localization
@@ -45,6 +54,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If GPS localization fails, ensure clear line of sight to satellites and retest.
+
+---
 
 - Test case ID: 4
 - Test case name: Test Bluetooth connectivity
@@ -58,6 +70,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If Bluetooth connectivity fails, restart Bluetooth on both devices and retest.
+
+---
 
 - Test case ID: 5
 - Test case name: Test battery management
@@ -69,6 +84,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If battery management fails, recharge the device and retest.
+
+---
 
 - Test case ID: 6
 - Test case name: Test integration between movement detection and alarm activation
@@ -80,6 +98,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If integration fails, restart the system and retest.
+
+---
 
 - Test case ID: 7
 - Test case name: Test integration between GPS and notification transmission
@@ -91,6 +112,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If integration fails, ensure proper network connectivity and retest.
+
+---
 
 - Test case ID: 8
 - Test case name: Test integration between Bluetooth and device control
@@ -103,6 +127,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If integration fails, reset Bluetooth connections and retest.
+
+---
 
 - Test case ID: 9
 - Test case name: Test end-to-end functionality
@@ -115,6 +142,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If end-to-end functionality fails, restart the system and retest.
+
+---
 
 - Test case ID: 10
 - Test case name: Test battery performance
@@ -127,6 +157,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If battery performance is unsatisfactory, recharge the device and retest.
+
+---
 
 - Test case ID: 11
 - Test case name: Test robustness against environmental factors
@@ -139,6 +172,9 @@
 - Status: Pending testing
 - Priority: Medium
 - Assigned to: QA
+- Recovery steps: If the system's resistance is compromised, reinforce seals and retest.
+
+---
 
 - Test case ID: 12
 - Test case name: Test authentication and authorization
@@ -157,6 +193,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If authentication or authorization fails, reset authentication tokens and retest.
+
+---
 
 - Test case ID: 13
 - Test case name: Usability testing of the mobile app
@@ -177,6 +216,9 @@
 - Status: Pending testing
 - Priority: Critical
 - Assigned to: QA
+- Recovery steps: If usability issues arise, provide user training and retest.
+
+---
 
 - Test case ID: 14
 - Test case name: User satisfaction testing
@@ -192,6 +234,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If user feedback indicates dissatisfaction, prioritize and address identified issues.
+
+---
 
 - Test case ID: 15
 - Test case name: Performance Testing
@@ -205,7 +250,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If performance degrades under load, optimize system resources and retest.
 
+---
 
 - Test case ID: 16
 - Test case name: Regression Testing
@@ -219,35 +266,42 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If regression is detected, identify the cause and apply necessary fixes.
 
+---
 
 - Test case ID: 17
 - Test case name: Test UI/UX design of the mobile app
 - Test case description: This test case evaluates the navigation, layout, and visual elements of the mobile app.
 - Test steps:
-    1. Navigate through various sections/screens of the mobile app.
-    2. Assess the layout for consistency and ease of use.
-    3. Evaluate visual elements such as buttons, icons, and colors.
-- Expected result: The mobile app should have intuitive navigation, consistent layout, and visually appealing elements.
+    1. Navigate through different sections of the mobile app.
+    2. Evaluate the clarity and intuitiveness of navigation.
+    3. Assess the layout of screens and the organization of information.
+    4. Evaluate the visual design, including color scheme, typography, and iconography.
+- Expected result: The mobile app should have a user-friendly interface with clear navigation, well-organized layout, and visually appealing design.
 - Actual result: [To be filled]
 - Status: Pending testing
-- Priority: Low
+- Priority: High
 - Assigned to: QA
+- Recovery steps: If UI/UX issues are identified, redesign interface elements and retest.
 
+---
 
 - Test case ID: 18
-- Test case name: Test user feedback mechanisms
-- Test case description: This test case verifies that users can provide feedback or report issues within the app.
+- Test case name: Test emergency response
+- Test case description: This test case evaluates the effectiveness of emergency response features in critical situations.
 - Test steps:
-    1. Explore the app to locate the feedback/reporting feature.
-    2. Submit feedback or report an issue using the designated functionality.
-    3. Verify that the feedback/report is successfully submitted.
-- Expected result: The app should allow users to easily provide feedback or report issues, and submissions should be successfully received.
+    1. Simulate an emergency situation.
+    2. Trigger emergency response features such as alarm activation and notification transmission.
+    3. Evaluate the timeliness and effectiveness of the response.
+- Expected result: Emergency response features should activate promptly and provide necessary assistance or alerts to relevant parties.
 - Actual result: [To be filled]
 - Status: Pending testing
-- Priority: Low
+- Priority: Critical
 - Assigned to: QA
+- Recovery steps: If emergency response fails, review and enhance emergency protocols and retest.
 
+---
 
 - Test case ID: 19
 - Test case name: Test error handling
@@ -262,7 +316,9 @@
 - Status: Pending testing
 - Priority: Medium
 - Assigned to: QA
+- Recovery steps: If error handling is inadequate, improve error messages and recovery mechanisms, and retest.
 
+---
 
 - Test case ID: 20
 - Test case name: Test compatibility
@@ -277,7 +333,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If compatibility issues arise, optimize the system for different platforms and configurations and retest.
 
+---
 
 - Test case ID: 21
 - Test case name: Test localization support
@@ -292,7 +350,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If localization support is inadequate, update language resources and retest.
 
+---
 
 - Test case ID: 22
 - Test case name: Test accessibility features
@@ -308,7 +368,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If accessibility features are lacking, implement improvements based on accessibility guidelines and retest.
 
+---
 
 - Test case ID: 23
 - Test case name: Test CI/CD processes
@@ -325,7 +387,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If CI/CD processes fail, troubleshoot and fix any issues in the pipeline configuration and retest.
 
+---
 
 - Test case ID: 24
 - Test case name: Test documentation accuracy and completeness
@@ -340,7 +404,9 @@
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If documentation is inaccurate or incomplete, update it accordingly and retest.
 
+---
 
 - Test case ID: 25
 - Test case name: Test system performance under load conditions
@@ -356,7 +422,9 @@
 - Status: Pending testing
 - Priority: Medium
 - Assigned to: QA
+- Recovery steps: If performance issues are detected, optimize system resources and configurations, and retest.
 
+---
 
 - Test case ID: 26
 - Test case name: Test encryption and data security measures
@@ -373,7 +441,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If security vulnerabilities are found, strengthen encryption protocols and key management practices, and retest.
 
+---
 
 - Test case ID: 27
 - Test case name: Test access control mechanisms
@@ -390,7 +460,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If access control mechanisms are inadequate, refine role definitions and authorization checks, and retest.
 
+---
 
 - Test case ID: 28
 - Test case name: Test for vulnerabilities
@@ -406,7 +478,9 @@
 - Status: Pending testing
 - Priority: Low
 - Assigned to: QA
+- Recovery steps: If vulnerabilities are identified, patch security holes and implement additional safeguards, and retest.
 
+---
 
 - Test case ID: 29
 - Test case name: Test usability
@@ -421,7 +495,9 @@
 - Status: Pending testing
 - Priority: Medium
 - Assigned to: QA
+- Recovery steps: If usability issues are identified, redesign interface elements and enhance user feedback mechanisms, and retest.
 
+---
 
 - Test case ID: 30
 - Test case name: Test acceptance criteria
@@ -431,24 +507,27 @@
     2. Execute test cases covering each criterion to validate compliance.
     3. Document any deviations or discrepancies from the acceptance criteria.
     4. Ensure that stakeholders approve any deviations or changes.
-- Expected result: The system should meet all predefined acceptance criteria, ensuring that it fulfills the users' requirements and expectations.
+- Expected result: The system should meet all predefined acceptance criteria, ensuring that it fulfills the requirements and expectations of stakeholders.
 - Actual result: [To be filled]
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
+- Recovery steps: If the system fails to meet acceptance criteria, identify areas of non-compliance, address deficiencies, and retest.
 
+---
 
 - Test case ID: 31
-- Test case name: Test post-release
-- Test case description: This test case monitors the system's performance and gathers user feedback after release.
+- Test case name: Test disaster recovery procedures
+- Test case description: This test case verifies the effectiveness of disaster recovery procedures in restoring system functionality after a catastrophic event.
 - Test steps:
-    1. Monitor system performance metrics, including response time, error rates, and resource utilization.
-    2. Gather user feedback through surveys, reviews, and direct communication channels.
-    3. Analyze collected data to identify areas for improvement or issues requiring attention.
-    4. Prioritize and address identified issues or improvements based on severity and user impact.
-- Expected result: The system's performance should remain stable, and user feedback should indicate satisfaction or highlight areas for enhancement.
+    1. Simulate a catastrophic event such as a server failure, data center outage, or natural disaster.
+    2. Initiate the disaster recovery procedures specified in the contingency plan.
+    3. Verify the restoration of system functionality and data integrity after the recovery process.
+    4. Test failover mechanisms to ensure seamless transition to backup systems or infrastructure.
+    5. Assess the recovery time objective (RTO) and recovery point objective (RPO) to determine if they align with business requirements.
+- Expected result: The disaster recovery procedures should enable the timely recovery of system functionality and data, minimizing downtime and data loss in the event of a catastrophic failure.
 - Actual result: [To be filled]
 - Status: Pending testing
 - Priority: High
 - Assigned to: QA
-
+- Recovery steps: If disaster recovery procedures are ineffective, refine the contingency plan and recovery processes, and retest.
