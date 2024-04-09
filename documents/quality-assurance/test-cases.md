@@ -19,7 +19,7 @@
 - Test steps:
     1. Perform slight movements.
     2. Perform significant movements.
-- Expected result: The movement detection algorithm should correctly detect the movements.
+- Expected result: The movement detection algorithm should correctly detect the movements, and emit sound more or less loud depending on the amplitude and the duration of the movement.
 - Actual result: [To be filled]
 - Status: Pending testing
 - Priority: Critical
@@ -126,7 +126,7 @@
 ---
 
 - Test case ID: 8
-- Test case name: Performance Testing
+- Test case name: Performance testing
 - Test case description: This test case evaluates the system's responsiveness.
 - Test steps:
     1. Measure the response time of key functions such as alarm activation, device unlocking, and GPS localization.
@@ -137,3 +137,17 @@
 - Assigned to: QA
 - Recovery steps: If response times are too slow, optimize system resources and retest.
 
+---
+
+- Test case ID: 9
+- Test case name: Sound level differences
+- Test case description: This test case verifies that the 2 available alarm sound levels are different.
+- Test steps:
+    1. Perform slight movements.
+    2. Perform major movements.
+- Expected result: The sound emitted when slight movements are performed should be the 3-tone one. When major movements the sound emitted should be the 5-tone one.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: High
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, optimize the code and retry.
