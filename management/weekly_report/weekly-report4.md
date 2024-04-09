@@ -8,7 +8,7 @@
 
 Our software engineer is still absent and the program can't progress as intended.
 
-Everything is progressing correctly other than the program, on which we will have a lot delay.
+Everything is progressing correctly other than the program, on which we will have a lot delay. We didn't had time to think about this problem but on the next week, the team will be informed of a new plan.
 
 ## Project Organization
 
