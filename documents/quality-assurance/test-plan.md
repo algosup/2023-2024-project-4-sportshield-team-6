@@ -108,5 +108,3 @@ The following tools will be used for testing:
 
 We will use GitHub Issues to track the defects of the software and the documentation. We will create a new issue for each defect that we find during the testing of the software and the reviewing of the documentation. Every issue will be labeled with the `bug` for the software and with `documentation` otherwise and will be assigned to the person concerned who will fix the defect. They will be provided to the individual with a clear description of the issue, the expected result and relevant hints if necessary. Finally we will indicate its priority level with a scale from `low` to `critical`.
 
-
-
