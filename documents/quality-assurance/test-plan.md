@@ -101,6 +101,10 @@ The following tools will be used for testing:
   - RAM: 16.0 GB
   - System type: 64-bit operating system, x64-based processor
 
+- [iPhone 13]
+  - 128 Go storage
+  - iOS 17.4.1
+
 - Software: Mobile app, Arduino IDE for embedded software testing
 - Communication tools for collaboration and issue tracking: GitHub, Slack and Trello.
 

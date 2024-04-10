@@ -1,7 +1,8 @@
 ## Test Cases
 
----
+**Note: our software engineer didn't touch the code throughout the project, and let us uncertain if he would come back or not. So nothing has been implemented, and this has rubbed off on the completeness of the test cases. I apologize for that.**
 
+---
 ### Order of priority
 
 | Order | Name |    
@@ -89,10 +90,9 @@
 
 - Test case ID: 6
 - Test case name: Test battery performance
-- Test case description: This test case evaluates the battery life, charging, and discharging behavior.
+- Test case description: This test case evaluates the battery life.
 - Test steps:
     1. Evaluate battery life under different usage scenarios.
-    2. Test battery charging and discharging behavior.
 - Expected result: The battery should perform as expected in terms of life, charging, and discharging behavior, so it should last for 7 days, considering 6 hours activation mode + 18 hours in stand-by (not activated) mode per day, as well as cold conditions.
 - Actual result: [To be filled]
 - Status: Pending testing
@@ -148,6 +148,101 @@
 - Expected result: The sound emitted when slight movements are performed should be the 3-tone one. When major movements the sound emitted should be the 5-tone one.
 - Actual result: [To be filled]
 - Status: Pending testing
-- Priority: High
+- Priority: Medium
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, optimize the code and retry.
+
+---
+
+- Test case ID: 10
+- Test case name: Use of NFC
+- Test case description: This test case verifies that the NFC is working properly on the SportShield device.
+- Test steps:
+    1. Use NFC to connect the phone with the device.
+    2. Use NFC to unlock the device.
+    3. Use NFC to lock the device.
+- Expected result: The NFC should work appropriately, meaning that a phone with NFC implemented should connect and be able to lock and unlock the device at will.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: Critical
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, optimize the code and retry.
+
+---
+
+- Test case ID: 11
+- Test case name: Stop the alarm at will
+- Test case description: This test case verifies that the alarm can be stopped whenever the user wants to.
+- Test steps:
+    1. Turn on the alarm with a connected phone.
+    2. Turn off the alarm with a connected phone.
+- Expected result: The alarm should activate and deactivate when the appropriate button is pressed on the connected phone.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: High
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
+
+---
+
+- Test case ID: 12
+- Test case name: Alarm rings and the software sends the notification at the same time
+- Test case description: This test case verifies that the alarm ringing and the notification sending are coordinated.
+- Test steps:
+    1. Activate the alarm with the connected phone.
+    2. Perform major movements with the device.
+    3. Verify that the notification has been received on the connected phone at the same time the alarm has been activated.
+- Expected result: The alarm activation and the receipt of the notification occur at the same time.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: High
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
+
+---
+
+- Test case ID: 13
+- Test case name: Device charging
+- Test case description: This test case verifies that the device charges without any problem.
+- Test steps:
+    1. Plug the device with a mains charger.
+    2. Verify the temperature of the device during charging.
+- Expected result: The device charges without overheating and the battery level increase normally during charging.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: High
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
+
+---
+
+- Test case ID: 14
+- Test case name: Single device pairing with Bluetooth
+- Test case description: This test case verifies that the SportShield device can pair with only one Bluetooth device.
+- Test steps:
+    1. Connect a first phone to the SportShield device.
+    2. Try to connect a second phone.
+- Expected result: The second attempt of connecting while the first phone is already connected results in a failure.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: Medium
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
+
+---
+
+- Test case ID: 15
+- Test case name: Everything but the IMU is deactivated when entering sleep mode
+- Test case description: This test case verifies that the sleep mode deactivates every feature during sleep mode.
+- Test steps:
+    1. Put the device into sleep mode
+    2. Verify that the Bluetooth is deactivated.
+    3. Verify that the NFC is deactivated.
+    4. Verify that the GPS is deactivated.
+    5. Verify that the 2G is deactivated.
+- Expected result: Every feature is deactivated during sleep mode.
+- Actual result: [To be filled]
+- Status: Pending testing
+- Priority: Medium
+- Assigned to: QA
+- Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
