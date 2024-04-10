@@ -21,8 +21,8 @@
     1. Perform slight movements.
     2. Perform significant movements.
 - Expected result: The movement detection algorithm should correctly detect the movements, and emit sound more or less loud depending on the amplitude and the duration of the movement.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If the movement detection fails, restart the system and retest.
@@ -36,8 +36,8 @@
     1. Trigger significant movements.
     2. Wait for the specified time period.
 - Expected result: The alarm should activate upon detecting significant movements and deactivate after the specified time period.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If the alarm activation fails, reset the alarm system and retest.
@@ -52,8 +52,8 @@
     2. Test data transmission between the device and the app.
     3. Test reconnection after Bluetooth disconnection.
 - Expected result: The SportShield device should successfully pair with the mobile app, transmit data, and reconnect after disconnection.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If Bluetooth connectivity fails, restart Bluetooth on both devices and retest.
@@ -66,8 +66,8 @@
 - Test steps:
     1. Test sleep functionality.
 - Expected result: The sleep functionality should work as expected, so the hardware supposed to not be working when sleep mode is activated should not, and when the active hardware detects something, it should reactivate the hardware put in sleep mode.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: High
 - Assigned to: QA
 - Recovery steps: If battery management fails, recharge the device and retest.
@@ -80,8 +80,8 @@
 - Test steps:
     1. Trigger movements.
 - Expected result: The alarm should activate correctly upon detecting movement, and there should be synchronization between the movement detection and alarm activation.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If integration fails, restart the system and retest.
@@ -94,8 +94,8 @@
 - Test steps:
     1. Evaluate battery life under different usage scenarios.
 - Expected result: The battery should perform as expected in terms of life, charging, and discharging behavior, so it should last for 7 days, considering 6 hours activation mode + 18 hours in stand-by (not activated) mode per day, as well as cold conditions.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Not Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If battery performance is unsatisfactory, recharge the device and retest.
@@ -117,8 +117,8 @@
     - Steps 2-3: The alarm should activate smoothly with a clear indication.
     - Steps 4-5: The alarm should deactivate smoothly with a clear indication.
     - Steps 6-7: The device should unlock seamlessly with a clear confirmation.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If usability issues arise, provide user training and retest.
@@ -131,8 +131,8 @@
 - Test steps:
     1. Measure the response time of key functions such as alarm activation, device unlocking, and GPS localization.
 - Expected result: The system should maintain acceptable response times under normal usage scenarios and demonstrate scalability to accommodate increased load.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: High
 - Assigned to: QA
 - Recovery steps: If response times are too slow, optimize system resources and retest.
@@ -146,8 +146,8 @@
     1. Perform slight movements.
     2. Perform major movements.
 - Expected result: The sound emitted when slight movements are performed should be the 3-tone one. When major movements the sound emitted should be the 5-tone one.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Medium
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, optimize the code and retry.
@@ -162,8 +162,8 @@
     2. Use NFC to unlock the device.
     3. Use NFC to lock the device.
 - Expected result: The NFC should work appropriately, meaning that a phone with NFC implemented should connect and be able to lock and unlock the device at will.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Not implemented
+- Status: Can't be tested
 - Priority: Critical
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, optimize the code and retry.
@@ -177,8 +177,8 @@
     1. Turn on the alarm with a connected phone.
     2. Turn off the alarm with a connected phone.
 - Expected result: The alarm should activate and deactivate when the appropriate button is pressed on the connected phone.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: High
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
@@ -193,8 +193,8 @@
     2. Perform major movements with the device.
     3. Verify that the notification has been received on the connected phone at the same time the alarm has been activated.
 - Expected result: The alarm activation and the receipt of the notification occur at the same time.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: High
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
@@ -208,8 +208,8 @@
     1. Plug the device with a mains charger.
     2. Verify the temperature of the device during charging.
 - Expected result: The device charges without overheating and the battery level increase normally during charging.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: High
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
@@ -223,8 +223,8 @@
     1. Connect a first phone to the SportShield device.
     2. Try to connect a second phone.
 - Expected result: The second attempt of connecting while the first phone is already connected results in a failure.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Medium
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
@@ -241,8 +241,8 @@
     4. Verify that the GPS is deactivated.
     5. Verify that the 2G is deactivated.
 - Expected result: Every feature is deactivated during sleep mode.
-- Actual result: [To be filled]
-- Status: Pending testing
+- Actual result: Everything is working as expected.
+- Status: Tested
 - Priority: Medium
 - Assigned to: QA
 - Recovery steps: If the actual results are different from the expected ones, verify the code and retry.
