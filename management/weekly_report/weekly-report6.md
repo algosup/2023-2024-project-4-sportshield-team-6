@@ -1,12 +1,14 @@
-# Weekly Report 5 - 04/07/24 - 04/13/24
+# Weekly Report 5 - 04/14/24 - 04/20/24
 
 ## Project Overview and Summary
 
  - <b>Project Name:</b> Sportshield
  - <b>Project Manger:</b> Evan UHRING
- - <b>Working time:</b> 7h
+ - <b>Working time:</b> 21h
 
+We managed to do some things on the program but not everything that has been requested.
 
+We have done are presentation for Coris Innovation.
 
 ## Project Organization
 
@@ -23,7 +25,7 @@ The current progress of the project and our prevision on the next week.
 Changes have been made on the goals for the test cases, to better respond what we have to do and what we can do.
 
 ##### The ongoing tasks are highlighted in red.
-![KPIs week 5](img/KPIs-week6.png)
+![KPIs week 6](img/KPIs-week6.png)
 
 
 ## Project Risks
