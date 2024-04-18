@@ -24,7 +24,7 @@ Here are the different documents that we have created for the project.
 
 - [Project Charter](/management/project-charter.md)
 - [Functional Specifications](/documents/functional/functional-specification.md)
-- [Technical Specifications](/documents/technical/technical-specification.md)
+- [Technical Specifications](/documents/technical/technical-specifications.md)
 - [Test Plan](/documents/quality-assurance/test-plan.md)
 
 ---

@@ -1,0 +1,52 @@
+name: Issue Report
+description: Issue report for general purpose
+body:
+  - type: textarea
+    id: what-is-the-issue
+    attributes:
+      label: What is the issue ?
+      description: Describe what is the problem.
+      placeholder: Describe here
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-expected
+    attributes:
+      label: What is expected ?
+      description: Describe what you should have/see.
+      placeholder: Describe here
+    validations:
+      required: true
+  - type: dropdown
+    id: your-os
+    attributes:
+      label: Operating system used
+      description: Which operating system are you using
+      options:
+        - Windows
+        - MacOS
+        - Linux
+      default: 0
+    validations:
+      required: false
+  - type: textarea
+    id: tell-us-more
+    attributes:
+      label: Relevant hints
+      description: Show us relevant hints to help us fixe the problem.
+      placeholder: Describe here
+    validations:
+      required: false
+  - type: dropdown
+    id: importance
+    attributes:
+      label: Priority
+      description: Which priority is the issue?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      default: 0
+    validations:
+      required: true
