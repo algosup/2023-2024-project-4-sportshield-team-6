@@ -76,8 +76,8 @@ const int aimantPin = D3;
 
 // Set a threshold to determine a "small" or "big" movement
 
-float SmallMT = 20.0;  //     SmallMotionThreshold
-float BigMT = 150.0;   //    BigMotionThreshold
+float SmallMT = 5.0;  //     SmallMotionThreshold
+float BigMT = 35.0;   //    BigMotionThreshold
 
 float SmallRT = 20.0;  //     SmallRotationThreshold
 float BigRT = 125.0;   //     BigRotationThreshold
